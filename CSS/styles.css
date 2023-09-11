@@ -1,0 +1,33 @@
+body {
+    background-color: #053B50;
+    margin: 0;
+    font-family: "Roboto";
+}
+
+
+.header{
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    background-color:#176B87 ;
+    list-style: none;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.button {
+    text-decoration: none;
+    background-color: #64CCC5;
+    border: solid 20px #64CCC5;
+    color: white;
+}
+
+.button:hover {
+    color: #176B87;
+}
+
+.active {
+    background-color: #053B50;
+    border-color: #053B50;
+}
