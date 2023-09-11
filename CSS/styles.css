@@ -101,7 +101,7 @@ footer {
     }
 }
 
-@media (max-width: 442px) {
+@media (max-width: 523px) {
     .button-container{
         height: 120px;
     }
