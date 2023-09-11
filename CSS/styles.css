@@ -80,7 +80,7 @@ footer {
     align-items: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
     .container{
         flex-wrap: wrap;
     }
@@ -92,6 +92,12 @@ footer {
     }
     .name {
         margin-top: 30px;
+    }
+    .box img {
+        width: 350px;
+    }
+    .box p {
+        min-width: 350px;
     }
 }
 
