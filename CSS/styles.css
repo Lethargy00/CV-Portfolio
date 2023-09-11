@@ -2,6 +2,7 @@ body {
     background-color: #053B50;
     margin: 0;
     font-family: "Roboto";
+    height: 100vh;
 }
 
 .header{
@@ -58,6 +59,11 @@ body {
     background-color: #176B87;
     border-radius: 15px;
     margin: 25px;
+}
+
+.box a {
+    color: white;
+    
 }
 
 .box img {
