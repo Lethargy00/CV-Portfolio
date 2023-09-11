@@ -31,3 +31,40 @@ body {
     background-color: #053B50;
     border-color: #053B50;
 }
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box {
+    display: inline-flex;
+    border: solid #176B87 15px;
+    background-color: #176B87;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+.box img {
+    width: 500px;
+    border-radius: 5px;
+}
+
+.box p {
+    margin: 10px;
+    min-width: 480px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: #176B87;
+    color: #053B50;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+}
