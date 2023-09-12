@@ -70,6 +70,10 @@ body {
     text-decoration: none;
 }
 
+.box > p > a:hover {
+    color: #053B50;
+}
+
 .box li {
     list-style: none;
     margin-left: 10px;
