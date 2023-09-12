@@ -122,10 +122,17 @@ footer {
 @media (max-width: 680px) {
     .header{
         height: 120px;
+        background-color: #053B50;
     }
     .name {
         margin-top: 30px;
     }
+
+    .container {
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .box img {
         width: 330px;
     }
